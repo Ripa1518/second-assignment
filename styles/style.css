@@ -4,13 +4,14 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:black;
+    /* background-color:black; */
     color: white;
     margin: 0 auto;
 }
 
 body{
     font-family: "Inter", sans-serif;
+    background-color: black;
 }
 
 /* shared style............ */
@@ -40,18 +41,35 @@ body{
     font-weight:600;
 }
 
+.common-title{
+    font-size:3rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+
 .description{
     color: rgba(255, 255, 255, 0.65);
 font-size: 0.8rem;
 font-weight: 400;
 line-height: 1.25rem;
 letter-spacing: 1px;
+text-align: center;
 }
 
 /* navbar...........  */
+
+header{
+    /* background-color: black; */
+    /* margin-top: 3.5rem; */
+    background: linear-gradient(180deg,black,rgba(69, 69, 69, 0.4904),rgba(119, 119, 119, 0));
+    background-blend-mode: overlay;
+}
 .navbar{
     width: 73%;
-    margin-top: 3.5rem;
+        margin-top: 3.5rem;
+
     display: flex;
     justify-content: space-between;
 }
@@ -106,7 +124,7 @@ padding-right: 1rem;
 }
 
 .banner-box{
-    width: 12.875rem;
+    width: 12.8rem;
     height: 6rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
@@ -116,17 +134,18 @@ position: absolute;
 top: 70%;
 left: -20%;
 display: flex;
+justify-content:space-around;
 align-items: center;
-z-index: 1;
-}
-.banner-text{
-    /* background-color: transparent ; */
-    z-index: -1;
+padding-left: 1rem;
 }
 
 .banner-box h3{
     color: rgb(250, 250, 249);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+line-height: 1.5rem;
+letter-spacing: 0.3px;
+    margin-bottom: 0.5rem;
    
 }
 .circle{
@@ -141,6 +160,109 @@ display: inline-block;
     top: 25%;
     left: 60%;
 }
+
+.right h3{
+    font-size: 2.5rem;
+font-weight: 900;
+line-height: 2.5rem;
+letter-spacing: 1px;
+}
+
+/* Change Your Habits..............  */
+
+.habits-section{
+    /* border: 2px solid red; */
+    margin-top: 6.3rem;
+    width: 72%;
+    
+
+
+}
+.habits-content{
+    /* width: 64%; */
+   text-align: center;
+   width: 64%;
+   margin-bottom: 3.5rem;
+}
+.habits-content h3{
+    margin-bottom: 1rem;
+}
+.habits-container{
+        /* border: 2px solid red; */
+       display: flex;
+    justify-content:space-evenly;
+}
+.habit img{
+    border: 3px solid  rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin-bottom: 2rem;
+   
+}
+.habit{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+}
+
+/* Run an Extra Mile Easily........ */
+.run-section{
+    /* border: 2px solid red; */
+    width: 72%;
+        margin-top: 6.3rem;
+        border-radius: 1rem;
+
+background: rgb(34, 34, 34);
+display: flex;
+/* justify-content: space-around; */
+/* align-items: center; */
+padding: 2rem;
+
+}
+.run-content{
+        /* border: 2px solid red; */
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.run-content h3  {
+    text-align: left;
+}
+.run-content p{
+    text-align: left;
+}
+.run-content button{
+    width: 12rem;
+  
+   
+
+}
+
+.button-container{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: left;
+    margin-left: 0;
+}
+.run-image img{
+    width: 100%;
+    /* width: 35%; */
+    /* height: 35%; */
+    border-radius: 1rem;
+    
+}
+.run-image{
+        /* border: 2px solid red; */
+
+width: 35%;
+}
+
 
 
 
