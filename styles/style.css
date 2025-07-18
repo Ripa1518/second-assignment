@@ -12,6 +12,7 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
+    color: white;
 }
 
 /* shared style............ */
@@ -33,6 +34,7 @@ body{
 }
 
 .btn-primary{
+    
     width: 5.5rem;
     height: 2.4rem;
     background-color: #E6533C;
@@ -84,6 +86,7 @@ padding-right: 1rem;
     align-items: center;
     gap: 3rem;
 }
+
 
 .title{
     font-size: 2.25rem;
@@ -372,28 +375,29 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 gap:1rem;
 padding: 1rem;
- column-gap:normal;
+
 }
 .team-card{
     width: 21.5rem;
     height: 17rem;
     position: relative;
+
     
    
 }
 .team-content{
     position: absolute;
-    top: 80%;
-    left: 10%;
+    top: 70%;
+    left: 30%;
 }
 .team-content h4{
-    font-size: medium;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight:700;
 }
 .team-content p{
     text-align: left;
-    margin-top: 5px;
 }
+
 .team-card img{
     width: 100%;
     height: 100%;
@@ -502,6 +506,10 @@ hr{
     margin-top: 4rem;
     margin-bottom: 2.5rem;
 }
+
+
+
+
 
 
 
